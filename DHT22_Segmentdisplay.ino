@@ -31,10 +31,10 @@ Adafruit_NeoPixel pixels = Adafruit_NeoPixel(15,15,NEO_GRB + NEO_KHZ800);
 #include <LWiFi.h>
 #include "MCS.h"
 
-char _lwifi_ssid[] = "Feen";
-//char _lwifi_ssid[] = "Lin Kevin1";
-char _lwifi_pass[] = "22558992";
-MCSDevice mcs("DU02SRn2", "4ma4GByKtiLp3eJa");
+char _lwifi_ssid[] = "=====";
+
+char _lwifi_pass[] = "========";
+MCSDevice mcs("========", "=========");
 
 MCSDisplayFloat Temp("Temperature");
 MCSDisplayFloat Humi("Humidity");
